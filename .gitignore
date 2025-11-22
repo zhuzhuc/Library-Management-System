@@ -20,4 +20,4 @@ CMakeCache.txt
 *.gcov
 
 # Documentation outputs (keep local only)
-docs/
+docs/resources/

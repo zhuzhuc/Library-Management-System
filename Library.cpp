@@ -274,7 +274,7 @@ Borrower* Library::findBorrowerById(const std::string& borrowerId) {
     return (it != borrowers.end()) ? *it : nullptr;
 }
 
-// 析构函数释放借阅人内存
+
 Library::~Library() {
     for (auto borrower : borrowers) {
         delete borrower;

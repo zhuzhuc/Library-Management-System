@@ -1,0 +1,23 @@
+# Build outputs
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.ninja
+*.ninja_deps
+*.ninja_log
+
+# Editor/system cruft
+.DS_Store
+.vscode/
+*.swp
+*.swo
+*.log
+
+# Tests and coverage artifacts
+*.gcda
+*.gcno
+*.gcov
+
+# Documentation outputs (keep local only)
+docs/
